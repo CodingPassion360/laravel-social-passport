@@ -1,0 +1,52 @@
+{
+  "name": "codingpassion360/laravel-social-passport",
+  "type": "library",
+  "description": "Easy to use Laravel-Passport framework for social authentication",
+  "homepage": "https://github.com/CodingPassion360/laravel-social-passport",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "passport",
+    "socialite",
+    "oauth",
+    "token",
+    "grant",
+    "api",
+    "Coding Passion 360"
+  ],
+  "authors": [
+    {
+      "name": "Coding Passion 360",
+      "email": "codingpassion360@gmail.com",
+      "homepage": "https://codingpassion360.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CodingPassion360\\LaravelSocialPassport\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CodingPassion360\\LaravelSocialPassport\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "laravel/passport": ">=2.0",
+    "google/apiclient": ">=2.0",
+    "facebook/graph-sdk": ">=5.4"
+  },
+  "require-dev": {
+    "fzaninotto/faker": ">=1.4",
+    "mockery/mockery": ">=0.9",
+    "phpunit/phpunit": ">=5.7"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
