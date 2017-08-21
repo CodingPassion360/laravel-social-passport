@@ -47,6 +47,17 @@
     "sort-packages": true,
     "optimize-autoloader": true
   },
+  "extra": {
+    "branch-alias": {
+      "dev-dev": "dev",
+      "dev-master": "master"
+    },
+    "laravel": {
+      "providers": [
+        "CodingPassion360\\LaravelSocialPassport\\Providers\\SocialPassportServiceProvider"
+      ]
+    }
+  },
   "minimum-stability": "stable",
   "prefer-stable": true
 }
